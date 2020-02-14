@@ -1,0 +1,304 @@
+/*---------------------------------------
+   SITE: UCBA Media Musings
+   AUTHORS:	Meagan Meece, Lyndsay Bamberger, Clinton Jones
+---------------------------------------*/
+
+
+/* GLOBAL STYLES
+---------------------------------------*/
+
+* { /* universal selector - talks to everything on the page */
+	
+}
+
+* {
+	box-sizing: border-box;
+}
+
+main {
+	font-size: 13pt;
+	line-height: 1.3em;
+	font-family: 'Open Sans', sans-serif;
+	margin: 1.3em;
+}
+
+body {
+	background-color: #363636;
+	
+}
+	
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 13px  #363636;
+	background-color: #e0e0e0;
+	border-radius: 3.1em;
+	
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	
+}
+
+
+
+/* HEADER
+---------------------------------------*/
+	
+header {
+	background-color: #363636;
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.3em .31em 1.3em .31em;
+	color: #E0E0E0
+}
+
+header h1 {
+	font-size: 313%;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	
+}
+
+header h1 a {
+	text-decoration: none;
+	color: #E60000;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 113%;
+}
+
+nav a {
+	padding: 1em 2em;
+	text-transform: uppercase;
+	display: block;
+	color: #E0E0E0;
+	text-decoration: none;
+	letter-spacing: .13em
+	
+}
+
+nav a:hover {
+	background-color: #666666;
+	border-radius: 2em;
+	
+}
+header div.sitename { /* contains both the h1 and h2 */
+	
+}
+
+header h1 {
+	color: #BD0000;
+	
+}
+
+
+
+header h2 {
+	padding: .5em;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: .13em;
+	font-size: 113%;
+
+}
+
+
+
+/* MAIN NAVIGATION 
+---------------------------------------*/	
+
+nav.topnav { /* entire navigation area */
+	
+}
+
+nav.topnav ul {
+	
+}
+
+nav.topnav li {
+	
+}
+
+nav.topnav a {
+	
+}
+
+nav.topnav a:hover {
+	
+}
+
+
+
+/* FEATURE AREA 
+---------------------------------------*/	
+main.feature_area {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 1.3em;
+}
+
+article.blog {
+	
+}
+
+article.blog h2 { /* blog headline */
+	font-size: 131%;
+}
+
+article.blog p { /* blog text */
+
+}
+
+aside.sidebar {
+	background-color: #363636;
+	color: #E0E0E0;
+	box-shadow: 0 0 .31em #E60000;
+
+}
+
+	
+
+
+aside.sidebar h3 { /* navigation labels */
+	font-size: 113%;
+	border-bottom: 1.3px solid #BD0000;
+	margin-left: 1.3em;
+	margin-right: 1.3em;
+	padding: .31em;
+
+	
+}
+
+aside.sidebar section { /* BOTH recent and links */
+	
+}
+
+aside.sidebar section.recent a:hover {
+	border-radius: 1.3em;
+	background-color: #666666;
+}
+
+aside.sidebar section.links {
+ 
+}
+
+aside.sidebar section.links a:hover {
+	border-radius: 1.3em;
+	background-color: #666666;
+}
+
+
+aside.sidebar ul {
+	margin: 0 0 0 1.5em; 
+	padding: .6em 0em .75em 0;
+	list-style-type: none;
+	
+}
+
+aside.sidebar li {
+	padding-bottom: .5em;
+	
+}
+
+aside.sidebar li a { /* links in the sidebar navigation */
+	 /* removes default underline */
+	font-size: 90%;
+	text-decoration: none;
+	color: #E0E0E0;
+
+}
+
+aside.sidebar li a:hover {
+	
+}
+
+section.news {
+grid-column: span 2;
+
+
+}
+
+/* CAMPUS AREA
+---------------------------------------*/
+
+section.campus	{
+display: flex;
+justify-content: space-around;
+padding: 31px;
+background-color: #363636;
+color: #E0E0E0
+}	
+
+section.campus section { /* all 4 columns for the buildings */
+flex: 1 1 0;
+text-align: center;
+background-color: #666666;
+padding: .31em;
+}
+
+section.campus figure {
+	border: 1.3px solid #363636;
+	box-shadow: 0px 0px 31px #E0E0E0;
+}
+a[href^="http://"] {
+	background-image: url("../images/icon_external.gif");
+	background-repeat: no-repeat;
+	color: #E60000;
+	text-decoration: none;
+	background-position: center right;
+	padding-right: 15.13px;
+}
+
+
+section.campus figcaption {
+	font-size: 80%;
+	padding: .31em;
+}
+
+section.campus h3 {
+	font-size: 131%;
+	font-family: 'Open Sans', sans-serif;
+	padding: .31em;
+	
+	
+}
+
+
+
+/* FOOTER
+---------------------------------------*/
+
+footer {
+	background-color: #363636;
+	padding: .13em;
+	color: #E0E0E0;
+	border-top: 3.1px solid #666666;
+	margin-top: 13px;
+}
+
+footer small { 
+	font-size: 85%;
+}
+
+
+
+
+/* TABLET
+---------------------------------------*/
+
+
+
+
+
+/* PHONE
+---------------------------------------*/
+
